@@ -1,0 +1,41 @@
+main {
+	margin: auto;
+	margin-top:100px;
+	width: 800px;
+	font-size: 0;
+}
+
+main div {
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.black {
+	background-color: black;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.top {
+	height: 200px;
+	width: 50%;
+}
+
+.bottom {
+	height: 300px;
+	width: 33.33%;
+}
