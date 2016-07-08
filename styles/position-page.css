@@ -1,1 +1,70 @@
+html { 
+  background: url(../images/outerspace_landscape.jpeg) center center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+nav {
+	position:fixed;
+	background-color: gray;
+	padding-left:60px;
+	padding-right:60px;
+	width:100%;
+	z-index:100;
+}
+
+nav img {
+	height:50px;
+	width:50px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px solid black;
+	border-radius: 50%;
+	vertical-align:middle;
+}
+
+nav ul {
+	display:inline-block;
+	list-style:none;
+}
+
+nav ul li {
+	display:inline-block;
+	padding-right:5px;
+	border-right:1px solid black;
+}
+
+main {
+	width:100%;
+	padding-top:200px;
+}
+
+.green {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	border:10px green dotted;
+	width:600px;
+	height:300px;
+}
+
+.cat {
+	background:url(../images/spacecat.png) no-repeat;
+	left:-100px;
+	top:-100px;
+}
+
+.dog {
+	background: url(../images/spacedog.png) no-repeat;
+	right:-100px;
+	bottom:-100px;
+}
+
+.animal {
+	position: absolute;
+	height: 200px;
+	width:200px;
+	background-size:cover;
+}
